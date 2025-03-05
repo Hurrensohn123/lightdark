@@ -1,0 +1,252 @@
+/* Standard (Light Mode) */
+body {
+  background-color: #faf9f9;
+  color: #1c1c1c;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #faf9f9;
+}
+
+/* Lottie Animation Anpassung */
+.lottie-animation-14,
+.lottie-animation {
+  filter: invert(100%);
+  transition: filter 0.3s;
+}
+
+body.dark-mode .lottie-animation-14,
+body.dark-mode .lottie-animation {
+  filter: invert(0%);
+}
+
+/* Sichtbarkeit von Shader-Elementen */
+.shader-do-not-touch {
+  display: block;
+}
+
+body.dark-mode .shader-do-not-touch {
+  display: none;
+}
+
+.dark-mode-shader {
+  display: none;
+}
+
+body.dark-mode .dark-mode-shader {
+  display: block;
+}
+
+/* Textfarbe global für alle Code-Embed-Klassen */
+[class^="code-embed-"] {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode [class^="code-embed-"] {
+  color: #faf9f9;
+}
+
+/* Textfarbe für .embed-logo */
+.embed-logo {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .embed-logo {
+  color: #faf9f9;
+}
+
+/* Filter für .clock-animation-block anpassen */
+.clock-animation-block {
+  filter: invert(100%);
+  transition: filter 0.3s;
+}
+
+body.dark-mode .clock-animation-block {
+  filter: invert(0%);
+}
+
+/* Beibehaltung der Farben für .row */
+.row {
+  color: initial !important;
+}
+
+/* Texte mit Farbwechsel */
+.text-flip-in-special,
+.paragraph-49,
+.skew-up,
+.text-slide-on-hover,
+.text-block-desktop-mobile,
+.text-block-22,
+.text-block-23,
+.text-block-24,
+.text-block-37,
+.text-block-21,
+.heading-98,
+.heading-104,
+.heading-100,
+.heading-105,
+.heading-106,
+.heading-103,
+.heading-65,
+.header-one,
+.heading-footer,
+.heading-footer-adress,
+.subheading-footer-adress,
+.info-basic .enlarge,
+.links,
+.logo-letter,
+.copyright-text-desktop,
+.paragraph-text,
+.datenschutz-paraghraph,
+.nächstes-bild-links,
+.nächstes-bild-rechts,
+.heading-48,
+.heading-49,
+.heading-107 {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .text-flip-in-special,
+body.dark-mode .text-block-22,
+body.dark-mode .text-block-23,
+body.dark-mode .text-block-24,
+body.dark-mode .text-block-37,
+body.dark-mode .text-block-21,
+body.dark-mode .paragraph-49,
+body.dark-mode .skew-up,
+body.dark-mode .text-slide-on-hover,
+body.dark-mode .text-block-desktop-mobile,
+body.dark-mode .heading-98,
+body.dark-mode .heading-104,
+body.dark-mode .heading-100,
+body.dark-mode .heading-105,
+body.dark-mode .heading-106,
+body.dark-mode .heading-103,
+body.dark-mode .heading-65,
+body.dark-mode .header-one,
+body.dark-mode .heading-footer,
+body.dark-mode .heading-footer-adress,
+body.dark-mode .subheading-footer-adress,
+body.dark-mode .info-basic,
+body.dark-mode .links,
+body.dark-mode .logo-letter,
+body.dark-mode .copyright_text_desktop,
+body.dark-mode .paragraph-text,
+body.dark-mode .datenschutz-paraghraph,
+body.dark-mode .nächstes-bild-links,
+body.dark-mode .nächstes-bild-rechts,
+body.dark-mode .heading-48,
+body.dark-mode .heading-49,
+body.dark-mode .heading-107 {
+  color: #faf9f9;
+}
+
+/* Standard Border nur für .subtext */
+.subtext {
+  border: 1px solid #1c1c1c;
+  /* Schwarz im Light Mode */
+  transition: border-color 0.3s;
+}
+
+/* Dark Mode Border nur für .subtext */
+body.dark-mode .subtext {
+  border-color: #faf9f9;
+  /* Weiß im Dark Mode */
+}
+
+/* Hintergrund für .section */
+.section {
+  background-color: #faf9f9;
+  transition: background-color 0.3s;
+}
+
+/* Dark Mode für .section */
+body.dark-mode .section {
+  background-color: #1c1c1c;
+}
+
+/* Light Mode für Kreise & Counter-Fill (hell) */
+.circular-thing,
+.next-circular-thing,
+.last-circular-thing,
+.counter-fill-1,
+.counter-fill-2,
+.counter-fill-3,
+.circular-element,
+.line-design,
+.line-design-2,
+.div-block-376,
+.bg-details {
+  background-color: #1c1c1c;
+  transition: background-color 0.3s;
+}
+
+/* Dark Mode für Kreise & Counter-Fill (dunkel) */
+body.dark-mode .circular-thing,
+body.dark-mode .next-circular-thing,
+body.dark-mode .last-circular-thing,
+body.dark-mode .counter-fill-1,
+body.dark-mode .counter-fill-2,
+body.dark-mode .counter-fill-3,
+body.dark-mode .circular-element,
+body.dark-mode .line-design,
+body.dark-mode .line-design-2,
+body.dark-mode .div-block-376,
+body.dark-mode .bg-details {
+  background-color: #faf9f9;
+}
+
+/* Hintergrundfarbe für .bg-details-2 */
+.bg-details-2 {
+  background-color: #faf9f9;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .bg-details-2 {
+  background-color: #1c1c1c;
+}
+
+/*Hintergrundfarbe für .bg-details */
+.bg-details {
+  background-color: #faf9f9;
+  transition: background-color: 0.3s;
+}
+
+body.dark-mode .bg-details {
+  background-color: #1c1c1c;
+}
+
+/* Farbwechsel für .einleitungstext & .header-general */
+.einleitungstext,
+.header-general,
+.list-item,
+.details-persona-heading,
+.faktoren,
+.zitat-intello,
+.paragraph-intello,
+.subheader-intello {
+  color: #1c1c1c;
+  transition: color 0.3s;
+}
+
+body.dark-mode .einleitungstext,
+body.dark-mode .header-general {
+  color: #1c1c1c;
+}
+
+/* Standard (Light Mode) */
+.alle-inhalte {
+  background-color: #eff1f8;
+  transition: background-color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode .alle-inhalte {
+  background-color: #acbfff;
+}
